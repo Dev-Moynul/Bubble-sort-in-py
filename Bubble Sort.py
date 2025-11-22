@@ -7,3 +7,6 @@ def bubble_sort(arr):
             if arr[j] > arr[j + 1]:
                 # swap
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
+numbers = [5, 2, 9, 1, 5, 6]
+bubble_sort(numbers)
+print("Sorted list:", numbers)
